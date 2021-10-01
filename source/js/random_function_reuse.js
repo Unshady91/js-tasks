@@ -31,10 +31,8 @@ const getRandomElFromArr = (arr) =>
     ? arr.splice(getRandomInt(0, arr.length), 1)
     : null
 
-getRandomElFromArr(MESSAGE_ARRAY) {
-  return getRandomPositiveInt(min, max);
-};
-getRandomElFromArr(MESSAGE_ARRAY) 
+// getRandomElFromArr(MESSAGE_ARRAY) = () => getRandomPositiveInt(min, max);
+
 // Первое задание. Получение целого числа + условия.
 
 // Вызывает случайное число

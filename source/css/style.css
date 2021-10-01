@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: grey;
+  height: 454px;
+
+  @media (min-width: 1150px) {
+    padding: 0 50px;
+  }
+}
+
+.map {
+  margin-top: 32px;
+  margin-bottom: 41px;
+}
