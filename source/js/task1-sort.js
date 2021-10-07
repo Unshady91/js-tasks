@@ -1,15 +1,11 @@
-// Скопировать и отсортировать массив
-const arr = ["HTML", "JavaScript", "CSS"];
-const result = new Array();
+const myArr = ['n', 'n', 'n', 's', 'n', 'n', 'n']
 
-const copySorted = (param) => {
-  // result.push(param.forEach((item) => {
-  //   return item.toString();
-  // }));
-  // console.log(result);
-  // return Array.from(...result.sort());
+function isValidWalk(walk) {
+  //insert brilliant code here
+  const arr = [];
+  let collector = 0;
+  walk.forEach(element => element === walk[element - 1]? true : false
+  );
 }
 
-let sorted = copySorted(arr);
-
-console.log(arr.slice().sort());
+isValidWalk(myArr)
